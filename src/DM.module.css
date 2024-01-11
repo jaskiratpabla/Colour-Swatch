@@ -1,0 +1,18 @@
+.root {
+  border: 1px solid black;
+  flex: 1 1 50%;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 20px;
+  gap: 10px;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+}
+
+.rectangle {
+  height: 200px;
+  width: 20px;
+}

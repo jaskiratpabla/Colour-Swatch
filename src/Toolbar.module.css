@@ -1,0 +1,15 @@
+.root {
+  height: 50px;
+  padding: 10px;
+  background-color: lightgrey;
+  flex-flow: row nowrap;
+  display: flex;
+  align-items: left;
+  gap: 10px;
+}
+
+button {
+  min-width: 100px;
+  font-family: sans-serif;
+  font-size: 15px;
+}

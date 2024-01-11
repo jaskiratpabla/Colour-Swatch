@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+}
+
+.panel {
+  padding: 10px;
+  background-color: whitesmoke;
+  flex: 1 1 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  gap: 10px;
+}

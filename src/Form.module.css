@@ -1,0 +1,67 @@
+.root {
+  padding: 10px;
+  border: 1px solid grey;
+  flex: 1 1 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 10px;
+  gap: 10px;
+}
+
+.form_modes {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 15px;
+  row-gap: 5px;
+  margin-bottom: 15px;
+}
+
+.form_modes > div {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 5px;
+  align-items: baseline;
+}
+
+.form_modes > div > label {
+  font-family: sans-serif;
+}
+
+.hsl_rgb {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 10px;
+  align-items: middle;
+}
+
+.hsl_rgb > label {
+  width: 40px;
+  font-family: sans-serif;
+  text-align: right;
+}
+
+.hsl_rgb > input[type="number"] {
+  min-width: 50px;
+}
+
+.hsl_rgb > input[type="range"] {
+  width: 50%;
+  flex: 1 1 auto;
+}
+
+.hex {
+  margin-left: 25px;
+  font-family: sans-serif;
+  color: red;
+}
+
+.hex > input[type="text"] {
+  width: 100px;
+  font-size: medium;
+}

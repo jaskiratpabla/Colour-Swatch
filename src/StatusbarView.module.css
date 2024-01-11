@@ -1,0 +1,9 @@
+.root {
+  height: 50px;
+  padding: 10px;
+  background-color: lightgrey;
+  font-family: sans-serif;
+  color: black;
+  line-height: 25px;
+  text-align: right;
+}
